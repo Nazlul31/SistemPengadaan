@@ -1,4 +1,4 @@
-Sistem Pengadaan Barang dan Jasa
+#Sistem Pengadaan Barang dan Jasa
 
 Nama: Muhammad Nazlul Ramadhyan
 NIM: 2308107010036
@@ -89,7 +89,7 @@ Langkah Instalasi:
 
 - Compile Assets
     npm run dev
-    # atau untuk production:
+    atau untuk production:
     npm run build
 
 - Storage Link
