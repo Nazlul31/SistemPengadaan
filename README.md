@@ -7,39 +7,40 @@ Deskripsi Proyek
 Sistem Pengadaan Barang dan Jasa adalah aplikasi web berbasis Laravel untuk mengelola proses pengadaan dalam suatu organisasi. Aplikasi ini memiliki dua role utama yaitu Vendor dan Admin dengan fitur-fitur sebagai berikut:
 
 Fitur Vendor:
-    - Registrasi dan manajemen profil vendor
-    - Input dan update persediaan barang/jasa
-    - Melihat dan merespons permintaan pengadaan
+- Registrasi dan manajemen profil vendor
+- Input dan update persediaan barang/jasa
+- Melihat dan merespons permintaan pengadaan
 
 Fitur Admin:
-    - Manajemen vendor
-    - Membuat dan mengelola permintaan pengadaan
-    - Generate laporan riwayat pengadaan
-    - Dashboard analytics dan monitoring
+- Manajemen vendor
+- Membuat dan mengelola permintaan pengadaan
+- Generate laporan riwayat pengadaan
+- Dashboard analytics dan monitoring
 
 Penjelasan Code & User Interface
 Struktur Aplikasi:
 Models: User.php, Vendor.php, Barang.php, Pengadaan.php, PengadaanDetail.php
 Controllers:
-    - AuthController.php (Authentication)
-    - BarangController.php (Manajemen Barang)
-    - LaporanController.php (Generate Laporan)
-    - PengadaanController.php (Proses Pengadaan)
-    - VendorController.php (Manajemen Vendor)
+- AuthController.php (Authentication)
+- BarangController.php (Manajemen Barang)
+- LaporanController.php (Generate Laporan)
+- PengadaanController.php (Proses Pengadaan)
+- VendorController.php (Manajemen Vendor)
+    
 Views:
-    - auth/ (Login/Register)
-    - barang/ (CRUD Barang)
-    - laporan/ (Reporting)
-    - pengadaan/ (Pengadaan Process)
-    - vendor/ (Vendor Management)
-    - layouts/ (Template)
+- auth/ (Login/Register)
+- barang/ (CRUD Barang)
+- laporan/ (Reporting)
+- pengadaan/ (Pengadaan Process)
+- vendor/ (Vendor Management)
+- layouts/ (Template)
 
 Database Schema:
-    - users: Data pengguna dengan role authentication
-    - vendors: Data profil dan informasi vendor
-    - barangs: Katalog barang/jasa yang tersedia
-    - pengadaans: Data permintaan pengadaan
-    - pengadaan_details: Detail item dalam setiap pengadaan
+- users: Data pengguna dengan role authentication
+- vendors: Data profil dan informasi vendor
+- barangs: Katalog barang/jasa yang tersedia
+- pengadaans: Data permintaan pengadaan
+- pengadaan_details: Detail item dalam setiap pengadaan
 
 User Interface:
 Dashboard Admin: 
